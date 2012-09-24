@@ -1,6 +1,8 @@
 Center-of-Gravity
 =================
 
+Generally, this program is an experiment in linear programming.
+
 The goal of this problem is to place a bunch of people and monkeys onto a seesaw so as to optimize the seesaw and its occupants' center of gravity (CG).  Optimizing the CG in this situation means keeping it as close to the seesaw's CG as possible.  Here's the scenario:
 
 Consider an unusually long and likely odd-looking seesaw that is broken up into P positions where each position has a maximum weight capacity, P.w.  There are M monkeys and N people that need to be placed on the seesaw.  Each monkey and person has an associated weight, M.w and N.w.  Each position also has a set of restrictions on the number of monkeys and people that may be seated there.  For example, position 1 might seat a maximum of 2 monkeys and 0 people, or 1 monkey and 1 person.  This means that position 1 can seat the following sets of (m monkeys, n people): {(0, 0), (0, 1), (1, 1), (1, 0), (2, 0)}.  
